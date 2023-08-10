@@ -1,0 +1,47 @@
+/* PHASE 0: Reset */
+
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+    box-sizing: inherit;
+    list-style-type: none;
+}
+
+ul {
+    box-sizing: inherit;
+
+}
+
+img {
+    box-sizing: inherit;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+    box-sizing: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+button,
+input[type="submit"] {
+    box-sizing: inherit;
+    cursor: pointer;
+
+}
+
+
+a {
+    text-decoration: none;
+}
